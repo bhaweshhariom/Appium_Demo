@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="pk_ExtentReport.Listeners"/>
+  </listeners>
+  <test thread-count="1" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="pk_Appium.EriBankLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCal"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pk_Appium.EriBankLogin -->
+      <class name="pk_Appium.EriBank_MakePayment">
+        <methods>
+          <include name="testCal"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pk_Appium.EriBank_MakePayment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

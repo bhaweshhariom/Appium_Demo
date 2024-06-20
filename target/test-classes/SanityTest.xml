@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2" >
+  <test name="Test">
+    <classes>
+      <class name="pk_appium.EriBank_MakePayment_Test"/>
+	  <class name="pk_appium.Eribank_Login"/>
+	  <class name="pk_MyDempApp.MyDemo_App_Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

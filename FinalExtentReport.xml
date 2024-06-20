@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="1">
+	<listeners>
+		<listener class-name="pk_ExtentReport.Listeners" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="pk_Appium.EriBankLogin" />
+			<class name="pk_Appium.EriBank_MakePayment"/>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
